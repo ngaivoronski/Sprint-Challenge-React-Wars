@@ -14,12 +14,7 @@ const NameCard = styled.div`
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
-    cursor: pointer;
     box-shadow: 0px 1px 6px -2px grey;
-
-    &:hover {
-        transform: translateY(-5px) scale(1.05);
-    }
 `;
 
 const Title = styled.h2`
@@ -34,10 +29,6 @@ const Content = styled.p`
     font-family: 'Orbitron', sans-serif;
     color: yellow;
 `;
-
-
-
-
 
 
 const StarWarsCard = props => {
