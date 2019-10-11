@@ -26,22 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-React JS is a javascript library that allows us to build large scale applications more effectivley by breaking down websites into components, allowing for the creation of building blocks from which to create webpages. React JS also allows us to handle html, css, and javascript all at once, thus making life a lot easier for front-end developers.
+_React JS is a javascript library that allows us to build large scale applications more effectivley by breaking down websites into components, allowing for the creation of building blocks from which to create webpages. React JS also allows us to handle html, css, and javascript all at once, thus making life a lot easier for front-end developers._
 
 - [ ] What does it mean to _think_ in react?
-Thinking in React is visualizing the elements of a website and breaking them down into hirearchical components and then designing the page(s) according to that structure.
+
+_Thinking in React is visualizing the elements of a website and breaking them down into hirearchical components and then designing the page(s) according to that structure._
 
 - [ ] Describe state.
 
-States are objects that determine how components render and behave in React, depending on their value.
+_States are objects that determine how components render and behave in React, depending on their value._
 
 - [ ] Describe props.
 
-Props are component parameters which are fed into the component and determine its various variables and customizations.
+_Props are component parameters which are fed into the component and determine its various variables and customizations._
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
 
-A side effect is anything that affects something outside the scope of the function being executed. Side effects are synced with state or prop changes by passing in a dependency array which looks for changes and then updates.
+_A side effect is anything that affects something outside the scope of the function being executed. Side effects are synced with state or prop changes by passing in a dependency array which looks for changes and then updates._
 
 ## Project Set Up
 
