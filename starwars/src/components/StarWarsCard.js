@@ -30,6 +30,15 @@ const Content = styled.p`
     color: yellow;
 `;
 
+function GetHomeworld(url) {
+    var [homeworld, setHomeworld] = useState("");
+    axios
+    .get(url)
+    .then(response => {
+        setHomeworld(response.data.name);
+    })
+    return homeworld
+}
 
 const StarWarsCard = props => {
     return (
@@ -38,6 +47,7 @@ const StarWarsCard = props => {
             <Content>Gender: {props.gender}</Content>
             <Content>Height: {props.height}</Content>
             <Content>Hair Color: {props.hair_color}</Content>
+            <Content>Home World: {GetHomeworld(props.homeworld)}</Content>
         </NameCard>
     )
 }

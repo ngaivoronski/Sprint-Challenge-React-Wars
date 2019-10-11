@@ -63,7 +63,7 @@ export default function StarWarsCharacters() {
         </Top>
         <Grid>
         {characters.map(item => {
-            return <StarWarsCard name={item.name} gender={item.gender} height={item.height} hair_color={item.hair_color}/>
+            return <StarWarsCard name={item.name} gender={item.gender} height={item.height} hair_color={item.hair_color} homeworld={item.homeworld} starships={item.starships}/>
         })}
         </Grid>
     </div>
